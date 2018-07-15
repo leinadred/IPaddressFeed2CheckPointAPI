@@ -7,7 +7,7 @@ Copy Script to file system (e.g. create a folder under root “scripts” or so)
 
 In GAiA Web UI just add Job Schedule for this
 example:
-sh /scripts/o365-api | /usr/bin/tee -a /scripts/o365_logging 2>&1 | /usr/sbin/sendmail --domain=<mail domain> -f <sender address> -v <recipient address> --host=<mail relay> 2>&1
+sh /scripts/o365-api | /usr/bin/tee -a /scripts/o365_logging 2>&1 | /usr/sbin/sendmail --domain=(mail domain) -f (sender address) -v (recipient address) --host= (mail relay) 2>&1
 Adds logging entries to a file "o365_logging" and sending a mail with the content
 
 Adapting 
