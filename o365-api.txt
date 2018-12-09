@@ -50,7 +50,7 @@ then
 fi
 
 #Download of Feed
-curl_cli --insecure 'https://support.content.office.net/en-us/static/O365IPAddresses.xml' |grep -o '[0-9]\{1,3\}\.[0-9]\{1,3\}\.[0-9]\{1,3\}\.[0-9]\{1,3\}\/[0-9]\{1,\}' > $v_helper_o365_ipv4cidr
+curl_cli --insecure 'https://endpoints.office.com/endpoints/worldwide?noipv6&ClientRequestId=b10c5ed1-bad1-445f-b386-b919946339a7' |grep -o '[0-9]\{1,3\}\.[0-9]\{1,3\}\.[0-9]\{1,3\}\.[0-9]\{1,3\}\/[0-9]\{1,\}' > $v_helper_o365_ipv4cidr
 
 mgmt_cli login --user $v_cpuser --password $v_cpuserpw --format json > id.txt
 
