@@ -123,8 +123,7 @@ then
                 echo "Done! Installing Policy!"
 
                 #install policy
-                mgmt_cli install-policy policy-package "$v_polpack" access true threat-prevention true targets.1 "$v
-_poltarget" -s id.txt
+                mgmt_cli install-policy policy-package "$v_polpack" access true threat-prevention true targets.1 "$v_poltarget" -s id.txt
 
             else
                 echo "No Changes!"
