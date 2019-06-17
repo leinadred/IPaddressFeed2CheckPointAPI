@@ -1,5 +1,7 @@
 #!/bin/bash -f
-#This machine version R80.20, uncomment the next line
+#If this machine version R80.30, uncomment the line below
+#source /opt/CPshrd-R80.30/tmp/.CPprofile.sh
+#If this machine version R80.20, uncomment the next line
 source /opt/CPshrd-R80.20/tmp/.CPprofile.sh
 #If this machine version R80.10, uncomment the line below
 #source /opt/CPshrd-R80/tmp/.CPprofile.sh
