@@ -1,3 +1,6 @@
+![license](https://img.shields.io/github/license/leinadred/IPaddressFeed2CheckPointAPI)	
+![language](https://img.shields.io/github/languages/top/leinadred/IPaddressFeed2CheckPointAPI)
+
 # IPaddressFeed2CheckPointAPI
 Adding a IP Address feed (CIDR) into Checkpoint Objects (here Office 365)
 
